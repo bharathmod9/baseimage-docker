@@ -1,7 +1,7 @@
 #FROM ubuntu:14.04
 #MAINTAINER Phusion <info@phusion.nl>
 FROM ubuntu:15.04
-MAINTAINER Arlo Faria <arlo@remeeting.com>
+MAINTAINER Remeeting, Inc. <support@remeeting.com>
 
 ENV HOME /root
 ADD . /build
