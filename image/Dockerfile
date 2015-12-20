@@ -1,6 +1,6 @@
 #FROM ubuntu:14.04
 #MAINTAINER Phusion <info@phusion.nl>
-FROM ubuntu:15.04
+FROM ubuntu:15.10
 MAINTAINER Remeeting, Inc. <support@remeeting.com>
 
 ADD . /bd_build
