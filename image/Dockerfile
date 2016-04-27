@@ -1,5 +1,9 @@
-FROM ubuntu:15.10
-MAINTAINER Phusion <info@phusion.nl>
+# Not sure if Phusion is still maintaining this image...
+
+FROM ubuntu:16.04
+
+#MAINTAINER Phusion <info@phusion.nl>
+MAINTAINER Arlo Faria <arlo@remeeting.com>
 
 ADD . /bd_build
 
